@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* 🔹 OUTPUT DISPLAY COLOR CHANGED HERE */
+#display {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+    background-color: #000;   /* Black background */
+    color: #00ff00;           /* Green text (like digital calculator) */
+    font-weight: bold;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #81b626;
+    color: white;
+}
+
+button:hover {
+    background: #666;
+}
+
+.zero {
+    grid-column: span 2;
+}
+
+/* 🔹 Media Query for Mobile */
+@media (max-width: 480px) {
+    .calculator {
+        width: 95%;
+    }
+
+    button {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    #display {
+        font-size: 26px;
+        height: 60px;
+    }
+}

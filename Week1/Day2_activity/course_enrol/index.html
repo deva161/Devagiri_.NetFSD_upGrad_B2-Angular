@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Enrollment Form</title>
+</head>
+<body>
+
+<header>
+    <h1>Online Learning Platform</h1>
+</header>
+
+<main>
+
+    <h2>Course Enrollment Form</h2>
+
+    <section>
+        <h3>Enrollment Completion</h3>
+        <progress value="70" max="100"></progress>
+        <p>70% Complete</p>
+    </section>
+    <section>
+        <h3>Your Current Skill Level</h3>
+        <meter min="0" max="100" value="60" low="30" high="80" optimum="90">
+            60 out of 100
+        </meter>
+        <p>Skill Level: Intermediate</p>
+    </section>
+
+   
+    <section>
+        <form action="#" method="post">
+
+         
+            <p>
+                <label for="name">Full Name:</label><br>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    required 
+                    minlength="3"
+                    placeholder="Enter your full name">
+            </p>
+
+          
+            <p>
+                <label for="email">Email Address:</label><br>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    required
+                    placeholder="example@email.com">
+            </p>
+
+           
+            <p>
+                <label for="course">Select Course:</label><br>
+                <input 
+                    type="text" 
+                    id="course" 
+                    name="course"
+                    list="course-options"
+                    required
+                    placeholder="Start typing course name">
+
+                <datalist id="course-options">
+                    <option value="HTML Fundamentals">
+                    <option value="CSS Basics">
+                    <option value="JavaScript Essentials">
+                    <option value="Python Programming">
+                    <option value="Full Stack Development">
+                </datalist>
+            </p>
+
+          
+            <p>
+                <label for="experience">Rate Your Experience (0-10):</label><br>
+                <input 
+                    type="range" 
+                    id="experience" 
+                    name="experience"
+                    min="0" 
+                    max="10" 
+                    required>
+            </p>
+            <p>
+                <label for="age">Your Age:</label><br>
+                <input 
+                    type="number" 
+                    id="age" 
+                    name="age"
+                    min="16" 
+                    max="65"
+                    required>
+            </p>
+            <p>
+                <input type="submit" value="Enroll Now">
+            </p>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Online Learning Platform</p>
+</footer>
+
+</body>
+</html>

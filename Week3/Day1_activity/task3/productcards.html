@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Cart</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            width: 70%;
+            margin: 40px auto;
+        }
+
+        .cart {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 6px 10px;
+            cursor: pointer;
+        }
+
+        .added-msg {
+            color: green;
+            margin-left: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="cart">
+    🛒 Cart Items: <span id="cartCount">0</span>
+</div>
+
+<div id="productList">
+
+    <div class="product">
+        <h4>Laptop</h4>
+        <button class="addBtn" data-name="Laptop">Add to Cart</button>
+        <span class="added-msg"></span>
+    </div>
+
+    <div class="product">
+        <h4>Mobile</h4>
+        <button class="addBtn" data-name="Mobile">Add to Cart</button>
+        <span class="added-msg"></span>
+    </div>
+
+    <div class="product">
+        <h4>Headphones</h4>
+        <button class="addBtn" data-name="Headphones">Add to Cart</button>
+        <span class="added-msg"></span>
+    </div>
+
+    <div class="product">
+        <h4>Keyboard</h4>
+        <button class="addBtn" data-name="Keyboard">Add to Cart</button>
+        <span class="added-msg"></span>
+    </div>
+
+</div>
+
+<script>
+$(document).ready(function(){
+
+    let count = 0;
+
+  
+    $("#productList").on("click", ".addBtn", function(){
+
+       
+        count++;
+        $("#cartCount").text(count);
+
+      
+        $(this).prop("disabled", true);
+
+    
+        $(this).text("Added");
+
+        
+        $(this).attr("title", "Product added to cart");
+
+       
+        $(this).next(".added-msg")
+               .text("✔ Added successfully!");
+
+    });
+
+});
+</script>
+
+</body>
+</html>

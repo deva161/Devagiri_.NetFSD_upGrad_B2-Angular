@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 60%;
+            margin: 40px auto;
+        }
+
+        .faq-container {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .faq-item {
+            margin-bottom: 10px;
+        }
+
+        .question {
+            cursor: pointer;
+            font-weight: bold;
+            padding: 8px;
+            background-color: #f2f2f2;
+            border-radius: 4px;
+        }
+
+        .answer {
+            display: none;
+            padding: 8px;
+            background-color: #fafafa;
+            border-left: 3px solid #007bff;
+        }
+
+        .active {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+    <div class="question">1. What is jQuery?</div>
+    <div class="answer">jQuery is a fast and lightweight JavaScript library for DOM manipulation.</div>
+</div>
+
+<div class="faq-item">
+    <div class="question">2. Why use jQuery?</div>
+    <div class="answer">It simplifies JavaScript coding and provides built-in effects and event handling.</div>
+</div>
+
+<div class="faq-item">
+    <div class="question">3. What is slideToggle?</div>
+    <div class="answer">slideToggle() smoothly shows or hides elements with sliding animation.</div>
+</div>
+
+<div class="faq-item">
+    <div class="question">4. How to include jQuery?</div>
+    <div class="answer">You can include jQuery using a CDN link inside the script tag.</div>
+</div>
+
+<div class="faq-item">
+    <div class="question">5. What is DOM manipulation?</div>
+    <div class="answer">DOM manipulation means changing HTML elements dynamically using JavaScript or jQuery.</div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $(".question").on("click",function(){
+            $(this).next(".answer").slideToggle();
+            $(this).toggleClass("active");
+        })
+    })
+</script>
+</body>
+</html>

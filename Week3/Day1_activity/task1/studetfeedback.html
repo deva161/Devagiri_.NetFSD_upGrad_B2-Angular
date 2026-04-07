@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<form id="feedback">
+    <div>
+        <label>Email :</label>
+        <input type="email" id="email" placeholder="Enter your Email">
+        <p id="emailmsg"></p>
+    </div><br>
+
+    <div>
+        <label>Name :</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <p id="namemsg"></p>
+    </div><br>
+
+    <div>
+        <label>Rating :</label>
+        <select id="rating">
+            <option value="">Select Rating</option>
+            <option>Excellent</option>
+            <option>Good</option>
+            <option>Average</option>
+        </select>
+        <p id="ratingmsg"></p>
+    </div><br>
+
+    <div>
+        <label>Comments :</label><br>
+        <textarea id="comments" rows="6"></textarea>
+        <p id="commentmsg"></p>
+    </div>
+
+    <button type="button" id="submitBtn">Submit</button>
+</form>
+
+<script>
+   $(document).ready(function() {
+
+    $("#submitBtn").on("click", function () {
+
+        let valid = true;
+
+        let name = $("#name").val();
+        let email = $("#email").val().trim();
+        let rating = $("#rating").val();
+        let comments = $("#comments").val().trim();
+
+        if (name == "") {
+            $("#namemsg").text("Name should not be empty").css("color", "red");
+            valid = false;
+        }
+
+        if (email === "") {
+            $("#emailmsg").text("Email should not be empty").css("color", "red");
+            valid = false;
+        }
+
+        if (rating === "") {
+            $("#ratingmsg").text("Please select a rating").css("color", "red");
+            valid = false;
+        }
+
+        if (comments === "") {
+            $("#commentmsg").text("Comments should not be empty").css("color", "red");
+            valid = false;
+        }
+
+        if (valid) {
+            alert("Feedback submitted successfully! 🎉");
+            $("#feedback")[0].reset();
+        }
+    });
+
+});
+</script>
+
+</body>
+</html>

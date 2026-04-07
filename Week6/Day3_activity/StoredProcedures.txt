@@ -1,0 +1,44 @@
+-- INSERT
+CREATE PROCEDURE sp_InsertProductInfo
+    @ProductId INT,
+    @ProductName VARCHAR(58),
+    @ListPrice NUMERIC(18,2),
+    @ExpiryDate DATETIME
+AS
+BEGIN
+    INSERT INTO ProductInfo VALUES (@ProductId, @ProductName, @ListPrice, @ExpiryDate)
+END
+GO
+
+-- GET ALL
+CREATE PROCEDURE sp_GetAllProductInfo
+AS
+BEGIN
+    SELECT * FROM ProductInfo
+END
+GO
+
+-- UPDATE
+CREATE PROCEDURE sp_UpdateProductInfo
+    @ProductId INT,
+    @ProductName VARCHAR(58),
+    @ListPrice NUMERIC(18,2),
+    @ExpiryDate DATETIME
+AS
+BEGIN
+    UPDATE ProductInfo
+    SET ProductName = @ProductName,
+        ListPrice = @ListPrice,
+        ExpiryDate = @ExpiryDate
+    WHERE ProductId = @ProductId
+END
+GO
+
+-- DELETE
+CREATE PROCEDURE sp_DeleteProductInfo
+    @ProductId INT
+AS
+BEGIN
+    DELETE FROM ProductInfo WHERE ProductId = @ProductId
+END
+GO

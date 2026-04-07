@@ -1,0 +1,15 @@
+CREATE DATABASE EcommstoreDB;
+GO
+
+USE EcommstoreDB;
+GO
+
+CREATE TABLE ProductInfo (
+    ProductId INT PRIMARY KEY,
+    ProductName VARCHAR(58) NOT NULL,
+    ListPrice NUMERIC(18,2) NOT NULL,
+    ExpiryDate DATETIME NULL
+);
+
+
+

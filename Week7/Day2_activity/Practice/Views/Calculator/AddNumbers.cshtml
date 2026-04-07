@@ -1,0 +1,22 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h1>Sum of Two numbers</h1>
+<form method="post" asp-action="AddNumbers" asp-controller="Calculator">
+
+    <div>
+
+        <label>Num1 : </label>
+        <input type="number" name="num1" />
+
+    </div>
+    <div>
+
+        <label>Num2 : </label>
+        <input type="number" name="num2" />
+
+    </div>
+    <div>
+        <input type="submit" value="Sum" />
+    </div>
+    <div>Sum : @ViewBag.sum</div>
+</form>

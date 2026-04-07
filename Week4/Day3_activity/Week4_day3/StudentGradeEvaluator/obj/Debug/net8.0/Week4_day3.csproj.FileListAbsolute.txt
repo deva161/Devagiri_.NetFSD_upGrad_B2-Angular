@@ -1,0 +1,14 @@
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\Week4_day3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\Week4_day3.AssemblyInfoInputs.cache
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\Week4_day3.AssemblyInfo.cs
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\Week4_day3.csproj.CoreCompileInputs.cache
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\bin\Debug\net8.0\Week4_day3.exe
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\bin\Debug\net8.0\Week4_day3.deps.json
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\bin\Debug\net8.0\Week4_day3.runtimeconfig.json
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\bin\Debug\net8.0\Week4_day3.dll
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\bin\Debug\net8.0\Week4_day3.pdb
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\Week4_day3.dll
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\refint\Week4_day3.dll
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\Week4_day3.pdb
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\Week4_day3.genruntimeconfig.cache
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\ref\Week4_day3.dll

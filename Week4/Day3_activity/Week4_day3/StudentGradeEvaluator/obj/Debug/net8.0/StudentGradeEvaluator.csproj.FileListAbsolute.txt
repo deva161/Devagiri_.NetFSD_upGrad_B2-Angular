@@ -1,0 +1,14 @@
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\bin\Debug\net8.0\StudentGradeEvaluator.exe
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\bin\Debug\net8.0\StudentGradeEvaluator.deps.json
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\bin\Debug\net8.0\StudentGradeEvaluator.runtimeconfig.json
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\bin\Debug\net8.0\StudentGradeEvaluator.dll
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\bin\Debug\net8.0\StudentGradeEvaluator.pdb
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\StudentGradeEvaluator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\StudentGradeEvaluator.AssemblyInfoInputs.cache
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\StudentGradeEvaluator.AssemblyInfo.cs
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\StudentGradeEvaluator.csproj.CoreCompileInputs.cache
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\StudentGradeEvaluator.dll
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\refint\StudentGradeEvaluator.dll
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\StudentGradeEvaluator.pdb
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\StudentGradeEvaluator.genruntimeconfig.cache
+C:\Users\MOUNIKA\source\repos\StudentGradeEvaluator\StudentGradeEvaluator\obj\Debug\net8.0\ref\StudentGradeEvaluator.dll

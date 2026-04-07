@@ -1,0 +1,25 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<h2>Student Registration Form</h2>
+
+<form method="post" asp-action="Register" asp-controller="Student">
+
+    <div>
+        <label>Student Name:</label>
+        <input type="text" name="studentName" required />
+    </div>
+
+    <div>
+        <label>Age:</label>
+        <input type="number" name="age" required />
+    </div>
+
+    <div>
+        <label>Course:</label>
+        <input type="text" name="course" required />
+    </div>
+
+    <br />
+
+    <button type="submit">Submit</button>
+
+</form>
