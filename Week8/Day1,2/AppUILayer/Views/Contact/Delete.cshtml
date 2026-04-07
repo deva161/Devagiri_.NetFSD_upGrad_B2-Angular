@@ -1,0 +1,7 @@
+
+@model ContactInfo
+<form method="post" action="/contact/delete">
+<input type="hidden" name="ContactId" value="@Model.ContactId"/>
+<p>Are you sure?</p>
+<button type="submit">Yes Delete</button>
+</form>

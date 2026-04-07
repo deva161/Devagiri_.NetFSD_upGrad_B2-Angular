@@ -1,0 +1,24 @@
+
+@model IEnumerable<ContactInfo>
+
+<h2>Contacts</h2>
+<a href="/contact/add">Add New</a>
+
+<table border="1">
+<tr><th>Name</th><th>Email</th><th>Company</th><th>Dept</th><th>Actions</th></tr>
+
+@foreach(var c in Model)
+{
+<tr>
+<td>@c.FirstName @c.LastName</td>
+<td>@c.EmailId</td>
+<td>@c.CompanyName</td>
+<td>@c.DepartmentName</td>
+<td>
+<a href="/contact/details/@c.ContactId">View</a> |
+<a href="/contact/edit/@c.ContactId">Edit</a> |
+<a href="/contact/delete/@c.ContactId">Delete</a>
+</td>
+</tr>
+}
+</table>
