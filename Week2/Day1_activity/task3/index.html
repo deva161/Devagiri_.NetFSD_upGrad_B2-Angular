@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Location Based Weather Logger</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 40px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .history {
+            margin-top: 20px;
+        }
+        .entry {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Location Based Weather Logger</h2>
+
+    
+    <button onclick="getLocation()">Get My Location</button>
+
+    <h3>Current Location:</h3>
+    <p id="currentLocation">Not fetched yet</p>
+
+    <div class="history">
+        <h3>Last 5 Locations:</h3>
+        <div id="locationHistory"></div>
+    </div>
+
+    <script src="./location.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container my-4">
+        <h2 class="text-center mb-4">Training Institute DashBoard</h2>
+        <div class="row g-5">
+            <div class="col-lg-5">
+                <div class="card shadow-sm border-primary">
+                    <div class="card-body">
+                        <h2 class="text-center">Register Student</h2>
+
+                        <form>
+                            <div>
+                                <label class="form-label">Name</label>
+                                <input type="text" class="form-control mb-3" placeholder="Enter your name" required>
+                            </div>
+                            <div>
+                                <label class="form-label">Course</label>
+                                <input type="text" class="form-control mb-3" placeholder="course" required>
+                            </div>
+                            <div>
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control mb-3" placeholder="Enter your email" required>
+                            </div>
+                            <div>
+                                <label class="form-label">Contact Number</label>
+                                <input type="number" class="form-control mb-3" placeholder="contact number" required>
+                            </div>
+                            <div class="">
+                                <button type="submit" class="btn btn-primary me-2"> Register </button>
+                                <button type="reset" class="btn btn-success"> Reset </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <div class="card border-success shadow">
+                    <div class="card-header bg-success text-white text-center"> Registered Students </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover text-center align-middle">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Course</th>
+                                        <th>Email</th>
+                                        <th>Contact</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="table-primary">
+                                        <td>1</td>
+                                        <td>Anjali</td>
+                                        <td>Java</td>
+                                        <td>anjali@mail.com</td>
+                                        <td>9876543210</td>
+                                    </tr>
+                                    <tr class="table-success">
+                                        <td>2</td>
+                                        <td>Rahul</td>
+                                        <td>Python</td>
+                                        <td>rahul@mail.com</td>
+                                        <td>9123456780</td>
+                                    </tr>
+                                    <tr class="table-warning">
+                                        <td>3</td>
+                                        <td>Priya</td>
+                                        <td>Web Dev</td>
+                                        <td>priya@mail.com</td>
+                                        <td>9012345678</td>
+                                    </tr>
+                                    <tr class="table-info">
+                                        <td>4</td>
+                                        <td>Kiran</td>
+                                        <td>SQL</td>
+                                        <td>kiran@mail.com</td>
+                                        <td>9988776655</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                    crossorigin="anonymous"></script>
+</body>
+
+</html>
